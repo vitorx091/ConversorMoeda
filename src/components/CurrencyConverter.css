@@ -12,9 +12,10 @@ body{
 
 .Title{
     background:gray;
-    width: 63%;
+    padding: 62px;
+    width: 48%;
     text-align: center;
-    border-radius: 15px;
+    border-radius: 18px 18px 0px 0px;;
 }
 .box{
     border-radius: 0px 0px 22px 22px;
