@@ -1,0 +1,53 @@
+body{
+    background: rgb(75, 74, 74);
+
+}
+.Container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Title{
+    background:gray;
+    width: 63%;
+    text-align: center;
+    border-radius: 15px;
+}
+.box{
+    border-radius: 0px 0px 22px 22px;
+    background: white;
+    padding: 62px;
+    width: 48%;
+    text-align: center;
+}
+
+input{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border:solid transparent;
+}
+
+input:hover{
+    border: solid black;
+}
+
+select{
+    padding: 3px;
+    margin: 3px;
+    border-radius: 10px;
+}
+
+button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: solid transparent;
+}
+
+button:hover{
+    border: solid gray;
+}
